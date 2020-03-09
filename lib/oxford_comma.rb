@@ -6,6 +6,6 @@ def oxford_comma(array)
     array[-1] = "and #{lastitem}"
     array.join(", ")
   elsif array.length == 1
-    array
+    array.join
   end
 end
